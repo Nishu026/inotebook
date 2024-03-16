@@ -23,4 +23,4 @@ const NotesSchema = new Schema({
     },
 });
 
-module.exports = mongoose.model('user',NotesSchema)  //model name and schema
+module.exports = mongoose.model('notes',NotesSchema)  //model name and schema
